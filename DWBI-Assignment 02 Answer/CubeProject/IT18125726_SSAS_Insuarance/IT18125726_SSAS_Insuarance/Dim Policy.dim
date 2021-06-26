@@ -1,0 +1,344 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="81a398bf-6b02-4125-b186-90a52918e75b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Policy</ID>
+  <Name>Dim Policy</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4308" scrolltop="-1159" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11494" y="16235" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimPolicyType" left="-1992" top="-444" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4022" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b60f0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimPolicyType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimPolicy" left="-995" top="6189" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3344" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000100d0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimPolicy" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-723" top="2804" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="2242" height="3685" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimPolicy-DimPolicyType]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="11" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1119" y="3303" />
+              <point x="1119" y="4672" />
+              <point x="-423" y="4672" />
+              <point x="-423" y="6189" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4308</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1159</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1992</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-444</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="202">
+            <Shape Id="Policy SK" Expanded="false">
+              <Attributes>
+                <Attribute Id="Policy SK" />
+                <Attribute Id="Policy Alternate ID" />
+                <Attribute Id="Policy Type Alternate ID" />
+                <Attribute Id="Policy Type SK" />
+                <Attribute Id="Renew Offer Type" />
+                <Attribute Id="Renew Response" />
+                <Attribute Id="Sales Channel" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Policy Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Policy Type" />
+              </Attributes>
+              <Position x="277" y="20" />
+            </Shape>
+            <Shape Id="Policy Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Policy Name" />
+              </Attributes>
+              <Position x="277" y="69" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cb614a94-0a56-4170-ae8b-1d031b7d16ca">
+    <DataSourceViewID>IT18125726 DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="0356b8a6-91c1-4984-9bd9-b70eff3455b7">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c022a37a-0023-4472-b656-0a5ec09fa110">
+      <ID>Policy SK</ID>
+      <Name>Policy SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="94697e43-b63a-463c-a2ba-dd9ea8bcbd80">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8da5123-b5e9-41d5-8081-bdc7ea1d1cec">
+            <TableID>dbo_DimPolicy</TableID>
+            <ColumnID>PolicySK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="de994d8c-e776-418c-b387-4a5f8e049748">
+          <AttributeID>Policy Type SK</AttributeID>
+          <Name>Policy Type SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="419dee84-c3f5-4f52-a699-e5b136ebe95a">
+          <AttributeID>Policy Alternate ID</AttributeID>
+          <Name>Policy Alternate ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ea3dc65d-771c-4092-8057-e5fce70dcfb1">
+          <AttributeID>Policy Name</AttributeID>
+          <Name>Policy Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="70a7ab3c-081f-4a9c-aca5-d348b23bb410">
+          <AttributeID>Policy Type Alternate ID</AttributeID>
+          <Name>Policy Type Alternate ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14281f34-e746-477b-afb3-0882a6b4cceb">
+          <AttributeID>Policy Type</AttributeID>
+          <Name>Policy Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5b36cd5b-44e4-4256-81fc-6c0999cb45fa">
+          <AttributeID>Renew Response</AttributeID>
+          <Name>Renew Response</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8b2036b5-f0b2-4c6b-b391-87cbaca612b0">
+          <AttributeID>Renew Offer Type</AttributeID>
+          <Name>Renew Offer Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ed4f511c-4dcf-4335-b393-bb63658c2592">
+          <AttributeID>Sales Channel</AttributeID>
+          <Name>Sales Channel</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cfb664ff-bb8c-4d06-8db5-a2dba9346506">
+      <ID>Policy Type SK</ID>
+      <Name>Policy Type SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="16726285-b0ec-4c39-8ddc-91a9d817af56">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="234fb0ae-9f2f-4df4-8900-c3579f69b865">
+            <TableID>dbo_DimPolicyType</TableID>
+            <ColumnID>PolicyTypeSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ff6c1c2b-63f0-45b8-b370-39f33fa760ef">
+      <ID>Policy Alternate ID</ID>
+      <Name>Policy Alternate ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2129aadd-37b3-4e33-9922-c9b48e0c3ded">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ec9a788f-e76b-489e-bec2-16dcdc29d7fd">
+            <TableID>dbo_DimPolicy</TableID>
+            <ColumnID>PolicyAlternateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="73909c86-4024-43a3-9371-bef01b87de66">
+      <ID>Policy Name</ID>
+      <Name>PolicyName</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c59fd34d-ba5d-4b1b-b6cf-fc2bdbdfbbbc">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81c646eb-4ea4-4c5a-bfe0-6bfa1a323468">
+            <TableID>dbo_DimPolicy</TableID>
+            <ColumnID>PolicyName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="67dc7280-3fdc-4b71-8ab1-ccfe1ac79bfb">
+      <ID>Policy Type Alternate ID</ID>
+      <Name>Policy Type Alternate ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="75b9cae2-e703-4df2-9453-f79d89b49902">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1139d799-a37b-46d0-893e-89cdf26eb279">
+            <TableID>dbo_DimPolicyType</TableID>
+            <ColumnID>PolicyTypeAlternateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1894d24d-36fb-4d5c-af86-90b4fde98f8b">
+      <ID>Policy Type</ID>
+      <Name>PolicyType</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dd7b41f6-d2f3-4ea8-9669-69e2a2b0a77a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="306ef098-40e1-4809-83c9-6e1ec009b038">
+            <TableID>dbo_DimPolicyType</TableID>
+            <ColumnID>PolicyType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="777599ce-b880-4690-8c68-89f9ec6fde8c">
+      <ID>Renew Response</ID>
+      <Name>Renew Response</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ae3e0bce-bab7-401f-8708-58d352b1e27e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56a19259-502e-4399-b781-46dc3aea27dc">
+            <TableID>dbo_DimPolicyType</TableID>
+            <ColumnID>RenewResponse</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c59d7938-a63f-45d6-9891-e668b45abc98">
+      <ID>Renew Offer Type</ID>
+      <Name>Renew Offer Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="af86cc8c-1e3d-4a59-846e-9401d134db67">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a61c82f-9430-4f6a-9752-d40898dc7a47">
+            <TableID>dbo_DimPolicyType</TableID>
+            <ColumnID>RenewOfferType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9c55da91-e5b9-4667-993c-32896699a24a">
+      <ID>Sales Channel</ID>
+      <Name>Sales Channel</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f0f0954-918c-4da4-9521-a5f1de8f78c3">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0128060d-0180-493b-bd75-14a23a51942b">
+            <TableID>dbo_DimPolicyType</TableID>
+            <ColumnID>SalesChannel</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="337a5fb2-e24e-4a33-b9b1-f074e32c58e8">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="33a1f519-1f59-4a45-a1c6-4a461105bdd9">
+          <ID>PolicyType</ID>
+          <Name>PolicyType</Name>
+          <SourceAttributeID>Policy Type</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="efa7a5cc-8c78-49eb-8a3f-46e239209745">
+          <ID>PolicyName</ID>
+          <Name>PolicyName</Name>
+          <SourceAttributeID>Policy Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
